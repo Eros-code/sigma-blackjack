@@ -66,3 +66,8 @@ button {
   border: solid 2px goldenrod;
   height: 100vh;
 }
+
+.instructions-img {
+  height: 300px;
+  border: solid 2px goldenrod;
+}
