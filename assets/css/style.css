@@ -1,0 +1,68 @@
+body,
+* {
+  text-align: center;
+  font-family: Inter, Arial, sans-serif;
+}
+
+body {
+  background-repeat: space;
+  background-image: url("../images/Fleur-de-lis.svg.png");
+  background-size: 100px;
+  background-color: royalblue;
+}
+
+.blackjack-title {
+  color: goldenrod;
+}
+
+main {
+  padding: 1rem;
+  width: 900px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.cards img {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  width: 150px;
+}
+
+.cards img:last-child {
+  margin-right: 0;
+}
+
+.points {
+  color: #2f9e44;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+nav {
+  margin: 2rem 0;
+}
+
+button {
+  background: rgb(105, 143, 255);
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border: 1px solid goldenrod;
+  font-size: 18px;
+  margin: 0 5px;
+  color: goldenrod;
+  border-radius: 5px;
+}
+
+.content-container {
+  background-color: rgba(65, 105, 225, 0.731);
+  border: solid 2px goldenrod;
+  height: 100vh;
+}

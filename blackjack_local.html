@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sigma Blackjack</title>
+  </head>
+  <body>
+    <div class="container content-container">
+      <h1 class="blackjack-title">Welcome to Sigma BlackJack!</h1>
+
+      <div class="cards" id="playerCards"></div>
+
+      <h3>
+        <strong
+          ><span class="turn-span">Player's turn</span> ‒ hand is worth
+          <span class="points"></span
+        ></strong>
+      </h3>
+
+      <div
+        class="button-container"
+        style="display: flex; justify-content: center; flex-direction: row"
+      >
+        <button class="draw-btn">Hit</button>
+        <button class="hold-btn">Hold</button>
+      </div>
+      <h3 class="win-msg"></h3>
+      <!-- <div style="display: flex; justify-content: center; flex-direction: row">
+        <button class="again-btn">Play again?</button>
+      </div> -->
+    </div>
+    <script src="assets/js/blackjack_oop.js"></script>
+  </body>
+</html>
