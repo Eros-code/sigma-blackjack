@@ -9,7 +9,7 @@
         class="button-container2"
         style="display: flex; justify-content: center; flex-direction: column"
       >
-        <button class="Play"><a href="https://eros-code.github.io/sigma-blackjack/blackjack.html">Play</a></button>
+        <a href="https://eros-code.github.io/sigma-blackjack/blackjack.html"><button class="Play">Play</button></a>
         <button href="" class="instructions">Instructions</button>
     </div>
   </div>
