@@ -11,6 +11,6 @@
       >
         <button class="Play">Play</button>
         <button class="instructions">Instructions</button>
-    </div>
+      </div>
   </div>
 </body>
