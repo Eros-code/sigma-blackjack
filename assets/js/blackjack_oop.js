@@ -100,13 +100,31 @@ window.addEventListener("DOMContentLoaded", function () {
   const cardButton = document.querySelector(".draw-btn");
   const againBtn = document.createElement("button");
   const dealerCardsDiv = document.createElement("div");
+  const backCard = document.querySelector(".back-card");
   dealerCardsDiv.setAttribute("class", "cards");
   dealerCardsDiv.setAttribute("id", "dealerCards");
+  var id = null;
+
+  function myMove() {
+    var pos = 0;
+    clearInterval(id);
+    id = setInterval(frame, 10);
+    function frame() {
+      if (pos == 350) {
+        clearInterval(id);
+      } else {
+        pos++;
+        backCard.style.top = pos + "px";
+        backCard.style.left = pos + "px";
+      }
+    }
+  }
 
   cardButton.addEventListener("click", function () {
     isPlayerTurn = false;
     const card = deck.draw();
     const newImg = document.createElement("img");
+    myMove();
 
     againBtn.textContent = "Play again?";
     againBtn.setAttribute("id", "againBtn");
