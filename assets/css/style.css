@@ -65,6 +65,7 @@ button {
   background-color: rgba(65, 105, 225, 0.731);
   border: solid 2px goldenrod;
   height: 110vh;
+  position: absolute;
 }
 
 .instructions-img {
