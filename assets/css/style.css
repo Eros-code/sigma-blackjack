@@ -71,3 +71,7 @@ button {
   height: 300px;
   border: solid 2px goldenrod;
 }
+
+#back-card {
+  position: relative;
+}
